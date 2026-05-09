@@ -1,0 +1,17 @@
+{
+  "name": "sparks-bus",
+  "version": "0.2.0",
+  "description": "Sparks Bus — MCP message broker for inter-agent communication at Project Sparks",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["mcp", "sparks", "bus", "agents", "messaging"],
+  "author": "Project Sparks / Guy Hutchins",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "better-sqlite3": "^11.0.0"
+  }
+}
